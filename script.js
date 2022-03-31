@@ -54,6 +54,8 @@ let numX =  +winX.textContent + 1;
 winX.innerText = numX;
 if (numX == 5) {
   alert('"Крестики" победили! Поздравляем!');
+  winX.innerText = 0;
+  winO.innerText = 0;
 }
 });
 
@@ -62,6 +64,8 @@ zero.addEventListener('click', function() {
   winO.innerText = numO;
   if (numO == 5) {
     alert('"Нолики" победили! Поздравляем!');
+    winX.innerText = 0;
+    winO.innerText = 0;
   }
   });
 
