@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>XO</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="cont"> 
+        <div id="xo">
+            <div id="one" class="play-zone"></div>
+            <div id="two" class="play-zone"></div>
+            <div id="three" class="play-zone"></div>
+            <div id="four" class="play-zone"></div>
+            <div id="five" class="play-zone"></div>
+            <div id="six" class="play-zone"></div>
+            <div id="seven" class="play-zone"></div>
+            <div id="eight" class="play-zone"></div>
+            <div id="nine" class="play-zone"></div>
+        </div>
+        <button id="clear">Очистить поле</button>
+       <button class='style-btn'>Как играть?</button>
+
+        <div id="counter">
+            <button class="style-btn crosses">Крестики</button>
+            <button class="style-btn zero">Нолики</button> </br>
+            <button class="style-btn remove">Сброс</button> </br>
+            <span class="winners">Количество побед:</span></br>
+            <span class="winners">X - </span><span class="winners win-x">0</span> </br>
+            <span class="winners">O - </span><span class="winners win-o">0</span> </br>
+        </div>
+        <ul>
+            <button id="close">X</button>
+            <li>В игре могут принимать участие только 2 человека.</li>
+            <li>Определитесь между собой, кто будет играть крестиками, а кто ноликами.</li>
+            <li>Ставить крестики нужно нажатием левой кнопки мыши, а нолики - нажатием правой.</li>
+            <li>Крестики начинают игру первыми.</li>
+            <li>По очереди ставьте крестики и нолики, стараясь собрать 3 своих знака в ряд.</li>
+            <li>Победившим считается игрок, который первым собрал ряд из трех своих знаков.</li>
+            <li>Ряды считаются по горизонтали, вертикали и наискось, но только по прямой линии.</li>
+            <li>Если игра зашла в тупик - нажмите кнопку "Очистить поле"</li>
+            <li>Игровая партия длится до 5 побед одного из игроков, для удобства запоминания счёта побед - 
+                воспользуйтесь счётчиком побед на сайте. Нажимайте кнопку "Крестики", 
+                если победили крестики или "Нолики", если победили нолики.</li>
+            <li>Удачной игры!</li>
+        </ul>
+    </div>
+<script src="script.js"></script>
+</body>
+</html>

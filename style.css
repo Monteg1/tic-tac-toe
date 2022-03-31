@@ -1,0 +1,147 @@
+
+#cont {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul {
+    position: absolute;
+    left: 35%;
+    top: 20%;
+    right: 35%;
+    background-color: rgb(190, 237, 245);
+    width: 35%;
+    outline: 5px solid rgba(64, 123, 233, 0.863);
+    font-size: large;
+    display: none;
+}
+
+ul li {
+    margin-top: 10px;
+    list-style-type: none;
+}
+
+
+li:before {
+    content: "►";
+   }
+
+ul > button {
+    float: right;
+    background-color: rgb(240, 110, 110);
+    border-radius: 20%;
+    font-weight: bold;
+    margin-bottom: 25px;
+    margin-left: 50px;
+    outline: none;
+}
+
+.is-open {
+    display: block;
+}
+
+#cont > button {
+    margin-top: 40px;
+    margin-left: 100px;
+    width: 180px;
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#xo {
+    width: 366px;
+    height: 366px;
+    border: 2px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: rgb(213, 240, 248)
+    
+
+}
+
+button {
+    display: flex;
+
+}
+
+#xo > div {
+    width: 120px;
+    height: 120px;
+    border: 1px solid rgba(107, 104, 104, 0.815);
+}
+
+#xo > div:hover {
+    background-color: rgb(172, 235, 243);
+    transition: 0.6s;
+}
+
+.style-btn, #clear {
+    width: 15em;
+    font-size: 80%;
+    color: rgba(255,255,255,.9);
+    text-shadow: #2e7ebd 0 1px 2px;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.1;
+    white-space: pre-line;
+    padding: .7em 0;
+    border: 1px solid;
+    border-color: #60a3d8 #2970a9 #2970a9 #60a3d8;
+    border-radius: 6px;
+    outline: none;
+    background: #60a3d8 linear-gradient(#89bbe2, #60a3d8 50%, #378bce);
+    box-shadow: inset rgba(255,255,255,.5) 1px 1px;
+  }
+  .style-btn:first-line, #clear:first-line{
+    font-size: 170%;
+    font-weight: 700;
+  }
+  .style-btn:hover, #clear:hover {
+    color: rgb(255,255,255);
+    background-image: linear-gradient(#9dc7e7, #74afdd 50%, #378bce);
+  }
+  .style-btn:active, #clear:active {
+    color: rgb(255,255,255);
+    border-color: #2970a9;
+    background-image: linear-gradient(#5796c8, #6aa2ce);
+    box-shadow: none;
+  }
+
+  .play-zone {
+    font-size: 115px;
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+
+  #counter {
+      position: absolute;
+      margin-left: 450px;
+      margin-top: 180px;
+      height: 300px;
+      width: 388px;
+      text-align: center;
+      line-height: 2.5;
+  }
+
+.winners {
+    text-align: center;
+    line-height: 2.5;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+
+  #counter > button {
+      display: inline-block;
+  }
+
+  #clear {
+    align-items: center;
+    justify-content: center;
+    font-size: x-large;
+    width: 250px;
+    height: 70px;
+  }
